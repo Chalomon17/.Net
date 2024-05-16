@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace WebServiceRastreoVehicular.Controllers
+namespace Traking.Vehiculos.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

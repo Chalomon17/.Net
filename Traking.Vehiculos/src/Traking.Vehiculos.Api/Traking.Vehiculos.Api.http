@@ -1,0 +1,6 @@
+@Traking.Vehiculos.Api_HostAddress = http://localhost:5277
+
+GET {{Traking.Vehiculos.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

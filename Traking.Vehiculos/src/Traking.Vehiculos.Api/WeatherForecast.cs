@@ -1,4 +1,4 @@
-namespace WebServiceRastreoVehicular
+namespace Traking.Vehiculos.Api
 {
     public class WeatherForecast
     {
