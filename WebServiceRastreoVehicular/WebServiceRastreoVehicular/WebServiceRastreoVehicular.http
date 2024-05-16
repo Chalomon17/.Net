@@ -1,0 +1,6 @@
+@WebServiceRastreoVehicular_HostAddress = http://localhost:5125
+
+GET {{WebServiceRastreoVehicular_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
