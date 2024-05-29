@@ -13,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{FFD9CD18-7937-4852-922C-7EED0CB2721D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traking.Vehiculos.Api", "src\Traking.Vehiculos.Api\Traking.Vehiculos.Api.csproj", "{C8FECBDB-F1FE-47B7-8A80-855A0E565FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traking.Vehiculos.Api", "src\Traking.Vehiculos.Api\Traking.Vehiculos.Api.csproj", "{C8FECBDB-F1FE-47B7-8A80-855A0E565FA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traking.Vehiculos.Domain", "src\Traking.Vehiculos.Domain\Traking.Vehiculos.Domain.csproj", "{6C876EC2-D7AF-496C-B386-B33C18797344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traking.Vehiculos.Domain", "src\Traking.Vehiculos.Domain\Traking.Vehiculos.Domain.csproj", "{6C876EC2-D7AF-496C-B386-B33C18797344}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traking.Vehiculos.Application", "src\Traking.Vehiculos.Application\Traking.Vehiculos.Application.csproj", "{38AC85FF-FB88-4272-9F72-619A1837532D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traking.Vehiculos.Application", "src\Traking.Vehiculos.Application\Traking.Vehiculos.Application.csproj", "{38AC85FF-FB88-4272-9F72-619A1837532D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traking.Vehiculos.Persistence", "src\Traking.Vehiculos.Persistence\Traking.Vehiculos.Persistence.csproj", "{77E24246-EA83-47C8-8819-6F2679EC2895}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traking.Vehiculos.Persistence", "src\Traking.Vehiculos.Persistence\Traking.Vehiculos.Persistence.csproj", "{77E24246-EA83-47C8-8819-6F2679EC2895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traking.Vehiculos.External", "src\Traking.Vehiculos.External\Traking.Vehiculos.External.csproj", "{5D85A557-110F-4B8A-BAF7-9CBC1A828227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traking.Vehiculos.External", "src\Traking.Vehiculos.External\Traking.Vehiculos.External.csproj", "{5D85A557-110F-4B8A-BAF7-9CBC1A828227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traking.Vehiculos.Common", "src\Traking.Vehiculos.Common\Traking.Vehiculos.Common.csproj", "{47E0F7E8-7526-4850-8145-16842C43A750}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traking.Vehiculos.Common", "src\Traking.Vehiculos.Common\Traking.Vehiculos.Common.csproj", "{47E0F7E8-7526-4850-8145-16842C43A750}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
