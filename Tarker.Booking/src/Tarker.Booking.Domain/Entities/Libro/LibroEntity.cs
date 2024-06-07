@@ -3,24 +3,46 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tarker.Booking.Domain.Entities.Cliente;
+using Tarker.Booking.Domain.Entities.Usuario;
 
 namespace Tarker.Booking.Domain.Entities.Libro
 {
     #region LibroEntity
     public class LibroEntity
     {
-        // Id del Libro
+        /// <summary>
+        /// Id del Libro
+        /// </summary>
         public int IdLibro { get; set; }
-        // Dia del registro del Libro
+        /// <summary>
+        /// Dia del registro del Libro
+        /// </summary>
         public DateTime DiaRegistro { get; set; }
-        // Código de reserva del Libro
+        /// <summary>
+        /// Código de reserva del Libro
+        /// </summary>
         public string Codigo { get; set; }
-        // Tipo reserva del Libro
+        /// <summary>
+        /// Tipo reserva del Libro
+        /// </summary>
         public int Tipo { get; set; }
-        // Id Cliente llave foránea de la entidad Cliente
+        /// <summary>
+        /// Id Cliente llave foránea de la entidad Cliente
+        /// </summary>
         public int IdCliente { get; set; } 
-        // Id Usuario llave foránea de la entidad Usuario
+        /// <summary>
+        /// Id Usuario llave foránea de la entidad Usuario
+        /// </summary>
         public int IdUsuario { get; set; }
+        /// <summary>
+        /// Referencia a la Entidad Usuario
+        /// </summary>
+        public UsuarioEntity Usuario { get; set; }
+        /// <summary>
+        /// Referencia a la Entidad Cliente
+        /// </summary>
+        public ClienteEntity Cliente { get; set; }
     }
     #endregion
 }
