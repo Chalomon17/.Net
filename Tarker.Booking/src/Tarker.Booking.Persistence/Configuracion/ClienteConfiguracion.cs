@@ -14,6 +14,10 @@ namespace Tarker.Booking.Persistence.Configuracion
         /// Configuración de la entidad Cliente
         /// </summary>
         /// <param name="entityBuilder"></param>
+        /// <remarks>
+        /// Autor: Gonzalo Mata
+        /// Fecha: 07/06/2024
+        /// </remarks>
         public ClienteConfiguracion(EntityTypeBuilder<ClienteEntity> entityBuilder) {
 
             entityBuilder.HasKey(x => x.IdCliente);

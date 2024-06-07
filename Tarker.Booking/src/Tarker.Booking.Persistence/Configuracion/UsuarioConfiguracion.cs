@@ -14,6 +14,10 @@ namespace Tarker.Booking.Persistence.Configuracion
         /// Confuguración de la Entidad Usuario
         /// </summary>
         /// <param name="entityBuilder"></param>
+        /// <remarks>
+        /// Autor: Gonzalo Mata
+        /// Fecha: 07/06/2024
+        /// </remarks>
         public UsuarioConfiguracion(EntityTypeBuilder<UsuarioEntity> entityBuilder)
         {
             entityBuilder.HasKey(x => x.IdUsuario);

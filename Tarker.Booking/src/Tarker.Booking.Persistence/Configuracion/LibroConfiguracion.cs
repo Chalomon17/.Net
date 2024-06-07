@@ -14,6 +14,10 @@ namespace Tarker.Booking.Persistence.Configuracion
         /// Configuración de la Entidad Libro
         /// </summary>
         /// <param name="entityBuilder"></param>
+        /// <remarks>
+        /// Autor: Gonzalo Mata
+        /// Fecha: 07/06/2024
+        /// </remarks>
         public LibroConfiguracion(EntityTypeBuilder<LibroEntity> entityBuilder)
         {
             entityBuilder.HasKey(x => x.IdLibro);

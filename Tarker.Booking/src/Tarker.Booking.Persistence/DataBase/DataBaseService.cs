@@ -9,12 +9,20 @@ namespace Tarker.Booking.Persistence.DataBase
     /// <summary>
     /// Servicios para acceder a la Base de datos mediante DBContext de EntityFramework
     /// </summary>
+    /// <remarks>
+    /// Autor: Gonzalo Mata
+    /// Fecha: 07/06/2024
+    /// </remarks>
     public class DataBaseService: DbContext
     {
         /// <summary>
         /// Constructor para ingresar o recibir la cadena de conexión hacia la Base de datos.
         /// </summary>
         /// <param name="options"></param>
+        /// <remarks>
+        /// Autor: Gonzalo Mata
+        /// Fecha: 07/06/2024
+        /// </remarks>
         public DataBaseService(DbContextOptions options): base(options) { 
         
         }
@@ -47,6 +55,10 @@ namespace Tarker.Booking.Persistence.DataBase
         /// relaciones.
         /// </summary>
         /// <param name="modelBuilder"></param>
+        /// <remarks>
+        /// Autor: Gonzalo Mata
+        /// Fecha: 07/06/2024
+        /// </remarks>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -57,6 +69,10 @@ namespace Tarker.Booking.Persistence.DataBase
         /// Método para aplicar toda la configuración de los modelos de datos.
         /// </summary>
         /// <param name="modelBuilder"></param>
+        /// <remarks>
+        /// Autor: Gonzalo Mata
+        /// Fecha: 07/06/2024
+        /// </remarks>
         private void EntityConfiguration(ModelBuilder modelBuilder)
         {
             new UsuarioConfiguracion(modelBuilder.Entity<UsuarioEntity>());
