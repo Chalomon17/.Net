@@ -16,7 +16,6 @@ namespace Tarker.Booking.Domain.Entities.Cliente
         // Número de documento del Cliente
         public string NumeroDocumento { get; set; }
 
-
     }
     #endregion
 }

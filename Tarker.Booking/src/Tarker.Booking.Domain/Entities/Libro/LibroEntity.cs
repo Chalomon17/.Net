@@ -14,9 +14,9 @@ namespace Tarker.Booking.Domain.Entities.Libro
         // Dia del registro del Libro
         public DateTime DiaRegistro { get; set; }
         // Código de reserva del Libro
-        public string CodigoReserva { get; set; }
+        public string Codigo { get; set; }
         // Tipo reserva del Libro
-        public int TipoReserva { get; set; }
+        public int Tipo { get; set; }
         // Id Cliente llave foránea de la entidad Cliente
         public int IdCliente { get; set; } 
         // Id Usuario llave foránea de la entidad Usuario
