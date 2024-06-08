@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Tarker.Booking.Application.Interfaces;
 using Tarker.Booking.Domain.Entities.Cliente;
 using Tarker.Booking.Domain.Entities.Libro;
 using Tarker.Booking.Domain.Entities.Usuario;
@@ -13,7 +14,7 @@ namespace Tarker.Booking.Persistence.DataBase
     /// Autor: Gonzalo Mata
     /// Fecha: 07/06/2024
     /// </remarks>
-    public class DataBaseService: DbContext
+    public class DataBaseService: DbContext, IDataBaseService
     {
         /// <summary>
         /// Constructor para ingresar o recibir la cadena de conexión hacia la Base de datos.
@@ -23,8 +24,8 @@ namespace Tarker.Booking.Persistence.DataBase
         /// Autor: Gonzalo Mata
         /// Fecha: 07/06/2024
         /// </remarks>
-        public DataBaseService(DbContextOptions options): base(options) { 
-        
+        public DataBaseService(DbContextOptions options): base(options) {
+          
         }
 
         /// <summary>
