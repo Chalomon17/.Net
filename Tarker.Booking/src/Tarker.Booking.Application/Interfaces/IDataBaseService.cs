@@ -24,7 +24,7 @@ namespace Tarker.Booking.Application.Interfaces
         /// <summary>
         /// Método Usuario relacionado a DataBaseService
         /// </summary>
-        DbSet<UsuarioEntity> Usuarios { get; set; }
+        DbSet<UsuarioEntity> Usuario { get; set; }
         /// <summary>
         /// Método Cliente relacionado a DataBaseService
         /// </summary>

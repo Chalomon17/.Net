@@ -31,7 +31,7 @@ namespace Tarker.Booking.Persistence.DataBase
         /// <summary>
         /// Invocación a la tabla a través de la entidad Usuario.
         /// </summary>
-        public DbSet<UsuarioEntity> Usuarios { get; set; }
+        public DbSet<UsuarioEntity> Usuario { get; set; }
         /// <summary>
         /// Invocación a la tabla a través de la entidad Cliente.
         /// </summary>
