@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Tarker.Booking.Application.Interfaces;
+using Tarker.Booking.Application.DataBase;
 using Tarker.Booking.Domain.Entities.Cliente;
 using Tarker.Booking.Domain.Entities.Libro;
 using Tarker.Booking.Domain.Entities.Usuario;

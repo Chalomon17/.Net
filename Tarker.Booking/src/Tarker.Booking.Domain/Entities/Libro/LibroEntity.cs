@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tarker.Booking.Domain.Entities.Cliente;
+﻿using Tarker.Booking.Domain.Entities.Cliente;
 using Tarker.Booking.Domain.Entities.Usuario;
 
 namespace Tarker.Booking.Domain.Entities.Libro

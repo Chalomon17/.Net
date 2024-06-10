@@ -1,14 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tarker.Booking.Domain.Entities.Cliente;
 using Tarker.Booking.Domain.Entities.Libro;
 using Tarker.Booking.Domain.Entities.Usuario;
 
-namespace Tarker.Booking.Application.Interfaces
+namespace Tarker.Booking.Application.DataBase
 {
     /// <summary>
     /// Interfaz para los métodos que ofrece DataBaseService.
