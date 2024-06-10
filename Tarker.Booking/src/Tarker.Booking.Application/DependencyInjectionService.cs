@@ -37,9 +37,9 @@ namespace Tarker.Booking.Application
                 config.AddProfile(new MapperProfile());
             });
 
-            // 5. Registro del mapeador como un servicio singleton.
-            // 6 .Un servicio singleton es una instancia única que se crea una vez y se reutiliza en toda la aplicación.
-            // 7. mapper.CreateMapper() crea una instancia de IMapper utilizando la configuración definida anteriormente.
+            // 4. Registro del mapeador como un servicio singleton.
+            // 5 .Un servicio singleton es una instancia única que se crea una vez y se reutiliza en toda la aplicación.
+            // 6. mapper.CreateMapper() crea una instancia de IMapper utilizando la configuración definida anteriormente.
             services.AddSingleton(mapper.CreateMapper());
 
             return services;
