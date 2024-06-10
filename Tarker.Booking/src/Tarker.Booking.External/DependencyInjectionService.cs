@@ -1,0 +1,31 @@
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tarker.Booking.External
+{
+    /// <summary>
+    /// Clase static para Servicio de injección de dependencias.
+    /// </summary>
+    /// <remarks>
+    /// Autor: Gonzalo Mata
+    /// Fecha: 10/06/2024
+    /// </remarks>
+    public static class DependencyInjectionService
+    {
+        /// <summary>
+        /// Método static para retornar IServiceCollection
+        /// </summary>
+        /// <param name="services"></param>
+        /// <param name="configuration"></param>
+        /// <returns></returns>
+        public static IServiceCollection AddExternal(this IServiceCollection services, IConfiguration configuration)
+        {
+            return services;
+        }
+    }
+}
