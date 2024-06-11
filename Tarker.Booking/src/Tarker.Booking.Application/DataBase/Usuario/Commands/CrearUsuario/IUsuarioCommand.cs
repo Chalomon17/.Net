@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tarker.Booking.Application.DataBase.Usuario.Commands
+﻿
+namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
 {
     /// <summary>
     /// Interfaz pública de IUsuarioCommand (domain)

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Tarker.Booking.Application.Configuration;
-using Tarker.Booking.Application.DataBase.Usuario.Commands;
+using Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario;
 
 namespace Tarker.Booking.Application
 {

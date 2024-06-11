@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Tarker.Booking.Application.DataBase.Usuario.Commands;
+using Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario;
 using Tarker.Booking.Domain.Entities.Usuario;
 
 namespace Tarker.Booking.Application.Configuration

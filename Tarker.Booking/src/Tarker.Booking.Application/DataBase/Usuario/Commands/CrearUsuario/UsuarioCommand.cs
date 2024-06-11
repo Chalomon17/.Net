@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Tarker.Booking.Domain.Entities.Usuario;
 
-namespace Tarker.Booking.Application.DataBase.Usuario.Commands
+namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
 {
     /// <summary>
     /// Clase de implementación UsuarioCommand
@@ -56,7 +55,8 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands
         /// Autor: Gonzalo Mata
         /// Fecha: 10/06/2024
         /// </remarks>
-        public async Task<UsuarioModel> Execute(UsuarioModel usuarioModel) {
+        public async Task<UsuarioModel> Execute(UsuarioModel usuarioModel)
+        {
 
             // 1. _mapper: Se llama al servicio de mapeo
             // 2. .Map<UsuarioEntity>: Modelo que se convertirá en una entidad 
