@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Tarker.Booking.Application.Configuration;
+using Tarker.Booking.Application.DataBase.Usuario.Commands;
 
 namespace Tarker.Booking.Application
 {
@@ -33,9 +34,14 @@ namespace Tarker.Booking.Application
             });
 
             // 4. Registro del mapeador como un servicio singleton.
-            // 5 .Un servicio singleton es una instancia única que se crea una vez y se reutiliza en toda la aplicación.
-            // 6. mapper.CreateMapper() crea una instancia de IMapper utilizando la configuración definida anteriormente.
+            // 5 .Un servicio singleton es una instancia única que se crea una vez y se reutiliza
+            // en toda la aplicación.
+            // 6. mapper.CreateMapper() crea una instancia de IMapper utilizando la configuración
+            // definida anteriormente.
             services.AddSingleton(mapper.CreateMapper());
+            // 7. services.AddTransient<ICommand, Command>(): Tiene que estar la interfaz con su clase
+            // de implementación correspondiente.
+            services.AddTransient<IUsuarioCommand, UsuarioCommand>();
 
             return services;
         }
