@@ -15,6 +15,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
         /// </summary>
         /// <param name="usuarioModel"></param>
         /// <returns>Retorna el objeto de UsuarioModel</returns>
+        /// <remarks>
         /// Autor: Gonzalo Mata
         /// Fecha: 10/06/2024
         /// </remarks>

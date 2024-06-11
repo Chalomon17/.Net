@@ -20,7 +20,6 @@
     <Folder Include="DataBase\Cliente\Queries\" />
     <Folder Include="DataBase\Libro\Commands\" />
     <Folder Include="DataBase\Libro\Queries\" />
-    <Folder Include="DataBase\Usuario\Commands\ActualizarUsuario\" />
     <Folder Include="DataBase\Usuario\Queries\" />
   </ItemGroup>
 

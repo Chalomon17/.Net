@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Tarker.Booking.Application.Configuration;
+using Tarker.Booking.Application.DataBase.Usuario.Commands.ActualizarUsuario;
 using Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario;
 
 namespace Tarker.Booking.Application
@@ -42,6 +43,7 @@ namespace Tarker.Booking.Application
             // 7. services.AddTransient<ICommand, Command>(): Tiene que estar la interfaz con su clase
             // de implementación correspondiente.
             services.AddTransient<ICrearUsuarioCommand, CrearUsuarioCommand>();
+            services.AddTransient<IActualizarUsuarioCommand, ActualizarUsuarioCommand>();
 
             return services;
         }

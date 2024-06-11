@@ -3,6 +3,14 @@
 namespace Tarker.Booking.Domain.Entities.Cliente
 {
     #region ClienteEntity
+
+    /// <summary>
+    /// Entidad Cliente
+    /// </summary>
+    /// <remarks>
+    /// Autor: Gonzalo Mata
+    /// Fecha: 10/06/2024
+    /// </remarks>
     public class ClienteEntity
     {
         /// <summary>

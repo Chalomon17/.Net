@@ -5,7 +5,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
 {
     /// <summary>
     /// Clase de implementación UsuarioCommand
-    /// La interfaz va relacionado para acceder a la implementación correspondiente
+    /// La interfaz va relacionado con la implementación correspondiente
     /// </summary>
     /// <remarks>
     /// Autor: Gonzalo Mata
@@ -50,7 +50,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
         /// Método asíncrono para guardar los datos del UsuarioModel
         /// </summary>
         /// <param name="usuarioModel"></param>
-        /// <returns>Retorna el objeto de UsuarioModel</returns>
+        /// <returns>Retorna el objeto de CrearUsuarioModel</returns>
         /// <remarks>
         /// Autor: Gonzalo Mata
         /// Fecha: 10/06/2024

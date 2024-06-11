@@ -1,18 +1,21 @@
-﻿using Tarker.Booking.Domain.Entities.Libro;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Tarker.Booking.Domain.Entities.Usuario
+namespace Tarker.Booking.Application.DataBase.Usuario.Commands.ActualizarUsuario
 {
-    #region UsuarioEntity
-
     /// <summary>
-    /// Entidad Usuario
+    /// Modelo ActualizarUsuarioModel.
     /// </summary>
     /// <remarks>
     /// Autor: Gonzalo Mata
     /// Fecha: 10/06/2024
     /// </remarks>
-    public class UsuarioEntity
+    public class ActualizarUsuarioModel
     {
+
         /// <summary>
         /// Id del Usuario
         /// </summary>
@@ -33,10 +36,5 @@ namespace Tarker.Booking.Domain.Entities.Usuario
         /// Password del UsuarioW
         /// </summary>
         public string Password { get; set; }
-        /// <summary>
-        /// Lista de Libros haciendo referencia a la Entidad Libro (Cliente puede tener muchos Libros)
-        /// </summary>
-        public ICollection<LibroEntity> Libros { get; set; }
     }
-    #endregion
 }

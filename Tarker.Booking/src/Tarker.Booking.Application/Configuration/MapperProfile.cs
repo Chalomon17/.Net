@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Tarker.Booking.Application.DataBase.Usuario.Commands.ActualizarUsuario;
 using Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario;
 using Tarker.Booking.Domain.Entities.Usuario;
 
@@ -25,7 +26,8 @@ namespace Tarker.Booking.Application.Configuration
             // 2. ReverseMap(): Este método indica que el mapeo debe ser bidireccional. Es decir,
             // no solo se puede mapear de Entidad a Model, si no también de Model a Entidad.
             CreateMap<UsuarioEntity, CrearUsuarioModel>().ReverseMap();
-        
+            CreateMap<UsuarioEntity, ActualizarUsuarioModel>().ReverseMap();
+
         }
     }
 }

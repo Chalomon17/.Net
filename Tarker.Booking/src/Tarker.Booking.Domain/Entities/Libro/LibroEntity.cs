@@ -4,6 +4,14 @@ using Tarker.Booking.Domain.Entities.Usuario;
 namespace Tarker.Booking.Domain.Entities.Libro
 {
     #region LibroEntity
+
+    /// <summary>
+    /// Entidad Libro
+    /// </summary>
+    /// <remarks>
+    /// Autor: Gonzalo Mata
+    /// Fecha: 10/06/2024
+    /// </remarks>
     public class LibroEntity
     {
         /// <summary>
