@@ -6,7 +6,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands
 {
     /// <summary>
     /// Clase de implementación UsuarioCommand
-    /// La interfaz va relacionado con la implementación correspondiente para acceder
+    /// La interfaz va relacionado para acceder a la implementación correspondiente
     /// </summary>
     /// <remarks>
     /// Autor: Gonzalo Mata
