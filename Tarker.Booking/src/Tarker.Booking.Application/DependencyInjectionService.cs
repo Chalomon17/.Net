@@ -41,7 +41,7 @@ namespace Tarker.Booking.Application
             services.AddSingleton(mapper.CreateMapper());
             // 7. services.AddTransient<ICommand, Command>(): Tiene que estar la interfaz con su clase
             // de implementación correspondiente.
-            services.AddTransient<IUsuarioCommand, UsuarioCommand>();
+            services.AddTransient<ICrearUsuarioCommand, CrearUsuarioCommand>();
 
             return services;
         }

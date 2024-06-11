@@ -8,7 +8,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
     /// Autor: Gonzalo Mata
     /// Fecha: 10/06/2024
     /// </remarks>
-    public interface IUsuarioCommand
+    public interface ICrearUsuarioCommand
     {
         /// <summary>
         /// Interfaz Execute que va estar relacionado a su implementación correspondiente
@@ -18,6 +18,6 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
         /// Autor: Gonzalo Mata
         /// Fecha: 10/06/2024
         /// </remarks>
-        Task<UsuarioModel> Execute(UsuarioModel usuarioModel);
+        Task<CrearUsuarioModel> Execute(CrearUsuarioModel usuarioModel);
     }
 }

@@ -24,7 +24,7 @@ namespace Tarker.Booking.Application.Configuration
             // 1. CreateMap<UsuarioEntity, UsuarioModel>(): Este método define un mapeo entre dos tipos (Entity, Model).
             // 2. ReverseMap(): Este método indica que el mapeo debe ser bidireccional. Es decir,
             // no solo se puede mapear de Entidad a Model, si no también de Model a Entidad.
-            CreateMap<UsuarioEntity, UsuarioModel>().ReverseMap();
+            CreateMap<UsuarioEntity, CrearUsuarioModel>().ReverseMap();
         
         }
     }

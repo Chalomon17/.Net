@@ -8,7 +8,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
     /// Autor: Gonzalo Mata
     /// Fecha: 10/06/2024
     /// </remarks>
-    public class UsuarioModel
+    public class CrearUsuarioModel
     {
         /// <summary>
         /// Nombre del Usuario

@@ -11,7 +11,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
     /// Autor: Gonzalo Mata
     /// Fecha: 10/06/2024
     /// </remarks>
-    public class UsuarioCommand : IUsuarioCommand
+    public class CrearUsuarioCommand : ICrearUsuarioCommand
     {
         /// <summary>
         /// Invocación al servicio de Base de datos.
@@ -40,7 +40,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
         /// Autor: Gonzalo Mata
         /// Fecha: 10/06/2024
         /// </remarks>
-        public UsuarioCommand(IDataBaseService dataBaseService, IMapper mapper)
+        public CrearUsuarioCommand(IDataBaseService dataBaseService, IMapper mapper)
         {
             _dataBaseService = dataBaseService;
             _mapper = mapper;
@@ -55,7 +55,7 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario
         /// Autor: Gonzalo Mata
         /// Fecha: 10/06/2024
         /// </remarks>
-        public async Task<UsuarioModel> Execute(UsuarioModel usuarioModel)
+        public async Task<CrearUsuarioModel> Execute(CrearUsuarioModel usuarioModel)
         {
 
             // 1. _mapper: Se llama al servicio de mapeo
