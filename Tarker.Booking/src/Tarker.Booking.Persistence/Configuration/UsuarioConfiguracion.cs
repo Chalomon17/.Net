@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Tarker.Booking.Domain.Entities.Usuario;
 
-namespace Tarker.Booking.Persistence.Configuracion
+namespace Tarker.Booking.Persistence.Configuration
 {
     public class UsuarioConfiguracion
     {

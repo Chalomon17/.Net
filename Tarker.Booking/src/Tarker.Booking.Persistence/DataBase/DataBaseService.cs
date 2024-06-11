@@ -3,7 +3,7 @@ using Tarker.Booking.Application.DataBase;
 using Tarker.Booking.Domain.Entities.Cliente;
 using Tarker.Booking.Domain.Entities.Libro;
 using Tarker.Booking.Domain.Entities.Usuario;
-using Tarker.Booking.Persistence.Configuracion;
+using Tarker.Booking.Persistence.Configuration;
 
 namespace Tarker.Booking.Persistence.DataBase
 {
