@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Tarker.Booking.Application.Configuration;
 using Tarker.Booking.Application.DataBase.Usuario.Commands.ActualizarUsuario;
 using Tarker.Booking.Application.DataBase.Usuario.Commands.CrearUsuario;
+using Tarker.Booking.Application.DataBase.Usuario.Commands.EliminarUsuario;
 
 namespace Tarker.Booking.Application
 {
@@ -44,6 +45,7 @@ namespace Tarker.Booking.Application
             // de implementación correspondiente.
             services.AddTransient<ICrearUsuarioCommand, CrearUsuarioCommand>();
             services.AddTransient<IActualizarUsuarioCommand, ActualizarUsuarioCommand>();
+            services.AddTransient<IEliminarUsuarioCommand, EliminarUsuarioCommand>();
 
             return services;
         }
