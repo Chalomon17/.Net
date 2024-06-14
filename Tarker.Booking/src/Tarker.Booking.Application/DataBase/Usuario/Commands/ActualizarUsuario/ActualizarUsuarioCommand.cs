@@ -82,13 +82,18 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.ActualizarUsuario
         /// </remarks>
         public async Task<bool> ExecutePassword(ActualizarUsuarioPasswordModel actualizarUsuarioPasswordModel)
         {
+            // 1. Se realiza una búsqueda hacia la base de datos para obtener los datos del usuario mediante el id del usuario para encontrar
+            // el primero por default 
             var entity = await _dataBaseService.Usuario.FirstOrDefaultAsync(x => x.IdUsuario == actualizarUsuarioPasswordModel.IdUsuario);
 
+            // 2. Se realiza una validación o condición para saber si viene nulo, si es así retornar false
             if (entity == null)
                 return false;
 
+            // 3. Se setea el valor del modelo con la propiedad de la entidad a actualizar
             entity.Password = actualizarUsuarioPasswordModel.Password;
 
+            // 4. Se guardan los cambios de forma asíncrona.
             return await _dataBaseService.SaveAsync();
 
         }
