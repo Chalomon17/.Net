@@ -25,5 +25,16 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.ActualizarUsuario
         /// Fecha: 10/06/2024
         /// </remarks>
         Task<ActualizarUsuarioModel> Execute(ActualizarUsuarioModel actualizarUsuarioModel);
+
+        /// <summary>
+        /// Interfaz Execute que va estar relacionado a su implementación correspondiente
+        /// </summary>
+        /// <param name="actualizarUsuarioPasswordModel"></param>
+        /// <returns>Retorna true o false</returns>
+        /// <remarks>
+        /// Autor: Gonzalo Mata
+        /// Fecha: 13/06/2024
+        /// </remarks>
+        Task<bool> ExecutePassword(ActualizarUsuarioPasswordModel actualizarUsuarioPasswordModel);
     }
 }

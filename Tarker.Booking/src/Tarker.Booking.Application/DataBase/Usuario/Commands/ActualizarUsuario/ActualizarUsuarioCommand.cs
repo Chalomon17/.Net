@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -68,6 +69,28 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.ActualizarUsuario
             // 2. .SaveAsync(): Si es un método asíncrono.
             await _dataBaseService.SaveAsync();
             return actualizarUsuarioModel;
+        }
+
+        /// <summary>
+        /// Método asíncrono para actualizar el campo password.
+        /// </summary>
+        /// <param name="actualizarUsuarioPasswordModel"></param>
+        /// <returns>Retorna true o false</returns>
+        /// <remarks>
+        /// Autor: Gonzalo Mata
+        /// Fecha: 13/06/2024
+        /// </remarks>
+        public async Task<bool> ExecutePassword(ActualizarUsuarioPasswordModel actualizarUsuarioPasswordModel)
+        {
+            var entity = await _dataBaseService.Usuario.FirstOrDefaultAsync(x => x.IdUsuario == actualizarUsuarioPasswordModel.IdUsuario);
+
+            if (entity == null)
+                return false;
+
+            entity.Password = actualizarUsuarioPasswordModel.Password;
+
+            return await _dataBaseService.SaveAsync();
+
         }
     }
 }

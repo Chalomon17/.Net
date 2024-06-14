@@ -37,4 +37,16 @@ namespace Tarker.Booking.Application.DataBase.Usuario.Commands.ActualizarUsuario
         /// </summary>
         public string Password { get; set; }
     }
+
+    public class ActualizarUsuarioPasswordModel
+    {
+        /// <summary>
+        /// Id del Usuario
+        /// </summary>
+        public int IdUsuario { get; set; }
+        /// <summary>
+        /// Nombre del Usuario
+        /// </summary>
+        public string Password { get; set; }
+    }
 }
